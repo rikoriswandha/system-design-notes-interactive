@@ -1,0 +1,12 @@
+{
+  "name": "system-design-notes-interactive",
+  "version": "2.1.0",
+  "private": true,
+  "description": "Bilingual Indonesian/English system design learning labs for 28 chapters",
+  "scripts": {
+    "dev": "node scripts/serve.cjs",
+    "test": "node scripts/check-locales.cjs --strict && node scripts/validate-i18n.cjs",
+    "check:locales": "node scripts/check-locales.cjs"
+  },
+  "engines": { "node": ">=20" }
+}
