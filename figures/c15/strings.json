@@ -1,0 +1,42 @@
+{
+  "en": {
+    "title": "Delta letterpress",
+    "hint": "Hover parts · ← → block size",
+    "label": "A letterpress chase holds the file's manifest blocks. Raised type illustrates the touched-block upper bound, not simulated edit positions. A screw-driven compression platen and reuse gate reduce a payload carried to a pneumatic dispatch riser; its iris opening follows upload bandwidth.",
+    "aria": "Hover a machine part to inspect its stage; tap that part to select it. Arrow keys change block size, Home and End select its limits, Space or Enter advances the readout, and Escape returns to the manifest. Empty card space does not select a stage.",
+    "caption": "Each type piece is one manifest block; the last may be partial. Raised type shows the touched-block upper bound, not edit positions or overlap. The sled starts with the full file, keeps only the touched-byte bound, then carries the compressed, deduplicated delta. Its payload area compares stage bytes with file size. The platen follows compression, the reuse gate follows deduplication, and the pneumatic iris area follows bandwidth. The tour never changes lab inputs.",
+    "key.0": "Type chase: file manifest and touched-block bound",
+    "key.1": "Sled payload: full file → touched bound → delta",
+    "key.2": "Compression press, reuse gate, pneumatic iris",
+    "read.manifest": "Manifest · {value} blocks",
+    "read.touched": "Touched ≤ {value} blocks",
+    "read.transfer": "Delta ≤ {value} MB",
+    "read.time": "Time ≤ {value} seconds",
+    "read.adjusting": "Adjusting…",
+    "description": "{blocks} manifest blocks; at most {touched} touched; delta upper bound {transfer} MB; ideal transfer time upper bound {time} seconds.",
+    "phase.0": "Manifest blocks",
+    "phase.1": "Upper bound on touched blocks",
+    "phase.2": "Compressed and deduplicated delta",
+    "phase.3": "Ideal transfer time"
+  },
+  "id": {
+    "title": "Mesin cetak delta",
+    "hint": "Sorot bagian · ← → ukuran blok",
+    "label": "Bingkai cetak menampung blok manifest berkas. Keping menonjol menunjukkan batas atas blok tersentuh, bukan simulasi posisi edit. Pelat kompresi berpenggerak ulir dan gerbang pakai ulang mengecilkan muatan yang dibawa ke tabung pengiriman pneumatik; bukaan irisnya mengikuti bandwidth unggahan.",
+    "aria": "Sorot bagian mesin untuk melihat tahapnya; ketuk bagian itu untuk memilih. Tombol panah mengubah ukuran blok, Home dan End memilih batasnya, Spasi atau Enter berpindah hasil, dan Escape kembali ke manifest. Area kosong pada kartu tidak memilih tahap.",
+    "caption": "Setiap keping cetak adalah satu blok manifest; keping terakhir bisa tidak penuh. Keping menonjol menunjukkan batas atas blok tersentuh, bukan posisi edit atau tumpang tindih. Kereta bermula dengan seluruh berkas, menyisakan batas byte tersentuh, lalu membawa delta terkompresi dan terdeduplikasi. Luas muatan membandingkan byte tahap dengan ukuran berkas. Pelat mengikuti kompresi, gerbang mengikuti deduplikasi, dan luas iris pneumatik mengikuti bandwidth. Demo otomatis tidak mengubah input lab.",
+    "key.0": "Bingkai cetak: manifest dan batas blok tersentuh",
+    "key.1": "Muatan: berkas penuh → batas tersentuh → delta",
+    "key.2": "Pelat kompresi, gerbang pakai ulang, iris pneumatik",
+    "read.manifest": "Manifest · {value} blok",
+    "read.touched": "Tersentuh ≤ {value} blok",
+    "read.transfer": "Delta ≤ {value} MB",
+    "read.time": "Waktu ≤ {value} detik",
+    "read.adjusting": "Menyesuaikan…",
+    "description": "{blocks} blok manifest; paling banyak {touched} tersentuh; batas atas delta {transfer} MB; batas atas waktu transfer ideal {time} detik.",
+    "phase.0": "Blok manifest",
+    "phase.1": "Batas atas blok tersentuh",
+    "phase.2": "Delta terkompresi dan terdeduplikasi",
+    "phase.3": "Waktu transfer ideal"
+  }
+}

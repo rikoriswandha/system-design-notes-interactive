@@ -1,0 +1,40 @@
+{
+  "en": {
+    "title": "Time-series card chest",
+    "hint": "Pick drawer · ← → interval",
+    "label": "A card-index chest with three retention drawers beside a sampling press. Drawer stack heights above their backing are proportional to the lab's raw, minute and hourly retained point counts; the feed stack grows logarithmically with active series.",
+    "aria": "Hover then press a drawer or the feed stack to inspect its count, or cycle with Up, Down, Space or Enter. Left and Right change sampling interval. Home selects the shortest interval and End the longest. Escape clears the preview.",
+    "caption": "Hosts × metrics × label combinations fill the supply pack (logarithmic height). Each laminated band groups ten metrics across the current hosts and labels. The three drawer heights above their backing show the retained-point shares for raw, minute and hourly age ranges, without overlap. The handwheel and press cycle once per sampling interval. All tiers use the lab's equal point-size assumption, not a full rollup-size estimate.",
+    "key.0": "Supply: active-series cardinality",
+    "key.1": "Selected card pack",
+    "key.2": "Sampling interval slider",
+    "btn.raw": "Raw · days 1–7",
+    "btn.minute": "Minute · days 8–30",
+    "btn.hour": "Hourly · days 31–365",
+    "btn.capacity": "Series and ingestion",
+    "read.capacity": "{series} series · {rate}/s",
+    "read.raw": "Raw · {points} points",
+    "read.minute": "Minute · {points} points",
+    "read.hour": "Hourly · {points} points",
+    "description": "{series} active series; {rate} samples per second at a {interval}-second interval; {storage} GB modeled storage; {saving}% saved compared with raw-only retention."
+  },
+  "id": {
+    "title": "Lemari kartu seri waktu",
+    "hint": "Pilih laci · ← → interval",
+    "label": "Lemari indeks kartu dengan tiga laci retensi di samping mesin pencatat sampel. Tinggi tumpukan di atas alas kartu sebanding dengan jumlah titik raw, per menit, dan per jam dari model lab; tumpukan masukan bertambah secara logaritmik mengikuti seri aktif.",
+    "aria": "Arahkan lalu tekan laci atau tumpukan masukan untuk melihat jumlahnya, atau pilih dengan Atas, Bawah, Spasi, maupun Enter. Kiri dan Kanan mengubah interval sampel. Home memilih interval terpendek dan End terpanjang. Escape menghapus pratinjau.",
+    "caption": "Host × metrik × kombinasi label mengisi tumpukan masukan (tinggi logaritmik). Setiap lapisan mengelompokkan sepuluh metrik dari seluruh host dan label saat ini. Tinggi tumpukan di atas alas menunjukkan porsi titik raw, per menit, dan per jam pada rentang usia yang tidak tumpang tindih. Roda dan mesin berputar satu siklus per interval sampel. Semua tingkat memakai asumsi ukuran titik yang sama dari lab, bukan estimasi lengkap ukuran rollup.",
+    "key.0": "Masukan: kardinalitas seri aktif",
+    "key.1": "Tumpukan kartu terpilih",
+    "key.2": "Penggeser interval sampel",
+    "btn.raw": "Raw · hari 1–7",
+    "btn.minute": "Per menit · hari 8–30",
+    "btn.hour": "Per jam · hari 31–365",
+    "btn.capacity": "Seri aktif dan ingest",
+    "read.capacity": "{series} seri · {rate}/s",
+    "read.raw": "Raw · {points} titik",
+    "read.minute": "Per menit · {points} titik",
+    "read.hour": "Per jam · {points} titik",
+    "description": "{series} seri aktif; ingest {rate} titik/s dengan interval {interval} detik; storage model {storage} GB; hemat {saving}% dibanding retensi raw saja."
+  }
+}

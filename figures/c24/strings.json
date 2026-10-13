@@ -1,0 +1,42 @@
+{
+  "en": {
+    "title": "Redundancy service rack",
+    "hint": "← → loss · ↑ ↓ repair · Space",
+    "label": "An isometric drive-tray service rack with three full-copy drawers or twelve fragment carriers on captive runners. Failed carriers slide far out; a surviving carrier slides slightly during inspection. Console windows show physical capacity, logical input, overhead, loss tolerance and surviving carriers. A ruled strip follows logical volume and the front regulator follows repair bandwidth.",
+    "aria": "Left and right change failed nodes. Up and down change repair bandwidth; Shift steps faster. Home clears failures, End selects six failures. Space or Enter switches replication and erasure coding. Hover to inspect; click a carrier to set the failure count to its position, capped at six. Click the front repair rail to select bandwidth. Escape stops inspection.",
+    "caption": "Each carrier is one node in the lab's placement group, not a whole production rack: three copies or eight data plus four parity fragments. Pulled carriers are lost nodes; a short pull only inspects a survivor. The console uses the lab's capacity, overhead, tolerance and remaining-node results; its ruled strip follows logical input over the volume slider's range. Captive runners keep every pulled carrier supported. The front regulator follows aggregate repair bandwidth; the corner shows ideal repair time, not progress. Beyond tolerance, bandwidth cannot recover the object. Spare capacity, metadata, computation and extra reconstruction traffic are excluded.",
+    "key.0": "Carriers: complete copies or data fragments",
+    "key.1": "Double front inset: parity; long pull: failed",
+    "key.2": "Repair-bandwidth regulator",
+    "capacity": "{value} PB",
+    "input": "{value} PB in",
+    "overhead": "+{value}%",
+    "tolerance": "≤{value} lost",
+    "survivors": "{value}/{max} left",
+    "repair": "{bandwidth} GB/s · {hours} h",
+    "lost": "{bandwidth} GB/s · unrecoverable",
+    "description": "{failed} failed nodes; tolerance {tolerance}; {remaining} of {total} carriers remain; repair bandwidth {bandwidth} GB/s.",
+    "phase.recoverable": "Within the loss tolerance: ideal repair is possible.",
+    "phase.unrecoverable": "Loss tolerance exceeded: recovery requires another backup."
+  },
+  "id": {
+    "title": "Rak layanan redundansi",
+    "hint": "← → gagal · ↑ ↓ repair · Spasi",
+    "label": "Rak tray drive isometrik dengan tiga laci salinan utuh atau dua belas tray fragmen pada rel penahan. Tray node gagal ditarik jauh keluar; tray sehat ditarik sedikit saat diperiksa. Jendela konsol menunjukkan kapasitas fisik, input logis, overhead, toleransi kehilangan, dan tray tersisa. Strip berskala mengikuti volume logis dan pengatur depan mengikuti bandwidth repair.",
+    "aria": "Panah kiri dan kanan mengubah jumlah node gagal. Panah atas dan bawah mengubah bandwidth repair; Shift memperbesar langkah. Home menghapus kegagalan, End memilih enam kegagalan. Spasi atau Enter beralih antara replikasi dan erasure coding. Arahkan pointer untuk memeriksa; ketuk tray untuk memilih jumlah kegagalan sesuai posisinya, maksimal enam. Ketuk rel repair depan untuk memilih bandwidth. Escape menghentikan pemeriksaan.",
+    "caption": "Setiap tray mewakili satu node dalam kelompok penempatan lab, bukan seluruh rack produksi: tiga salinan atau delapan fragmen data dan empat parity. Tray yang ditarik jauh adalah node hilang; tarikan pendek hanya memeriksa tray sehat. Konsol memakai hasil kapasitas, overhead, toleransi, dan node tersisa dari lab; strip berskalanya mengikuti input logis dalam rentang slider volume. Rel penahan menopang setiap tray yang ditarik. Pengatur depan mengikuti bandwidth repair agregat; sudut kartu menampilkan waktu repair ideal, bukan progres. Di luar toleransi, bandwidth tidak dapat memulihkan objek. Kapasitas cadangan, metadata, komputasi, dan lalu lintas rekonstruksi tambahan tidak dihitung.",
+    "key.0": "Tray: salinan utuh atau fragmen data",
+    "key.1": "Bingkai depan ganda: parity; tarikan jauh: gagal",
+    "key.2": "Pengatur bandwidth repair",
+    "capacity": "{value} PB",
+    "input": "{value} PB masuk",
+    "overhead": "+{value}%",
+    "tolerance": "≤{value} gagal",
+    "survivors": "{value}/{max} sisa",
+    "repair": "{bandwidth} GB/s · {hours} jam",
+    "lost": "{bandwidth} GB/s · tak pulih",
+    "description": "{failed} node gagal; toleransi {tolerance}; {remaining} dari {total} tray tersisa; bandwidth repair {bandwidth} GB/s.",
+    "phase.recoverable": "Masih dalam toleransi kehilangan: repair ideal memungkinkan.",
+    "phase.unrecoverable": "Toleransi kehilangan terlampaui: pemulihan membutuhkan backup lain."
+  }
+}

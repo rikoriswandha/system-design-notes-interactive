@@ -1,0 +1,32 @@
+{
+  "en": {
+    "title": "Quorum vault",
+    "hint": "Hover bolts · click to try",
+    "label": "An inspection-side vault door with replica key cylinders, independent read and write bolts, an overlap linkage, and a side rack for replacement keys.",
+    "aria": "Hover or click the upper bolt track to try a read, or the lower bolt track to try a write. Left and right arrows select the operation. Up and down change disconnected replicas. Enter toggles fixed and sloppy quorums. Home selects read, End selects write, Space alternates, Escape returns to read.",
+    "caption": "Each cylinder is one of N original replicas; blank cylinders are disconnected. The selected bolt retracts only when its quorum can respond. The raised linkage means fixed-set overlap is not guaranteed. Sloppy quorums use the side-rack replacements, but intersection alone never proves linearizability.",
+    "key.0": "Original replica keys",
+    "key.1": "Read bolt; lower bolt writes",
+    "key.2": "Fixed-set overlap linkage",
+    "key.3": "Side rack: hinted handoff",
+    "readout": "N {n} · R {r} · W {w}",
+    "description": "{healthy} of {n} original replicas healthy. Reads: {read}. Writes: {write}. Fixed-set overlap: {overlap}.",
+    "read": "Read: {status}",
+    "write": "Write: {status}"
+  },
+  "id": {
+    "title": "Brankas quorum",
+    "hint": "Bidik baut · klik untuk uji",
+    "label": "Sisi mekanisme pintu brankas dengan silinder kunci replika, baut baca dan tulis terpisah, penghubung irisan quorum, dan rak samping untuk kunci pengganti.",
+    "aria": "Arahkan atau klik rel baut atas untuk mencoba baca, rel baut bawah untuk tulis. Panah kiri dan kanan memilih operasi. Panah atas dan bawah mengubah replika terputus. Enter mengganti quorum tetap dan sloppy. Home memilih baca, End memilih tulis, Spasi bergantian, Escape kembali ke baca.",
+    "caption": "Setiap silinder mewakili satu dari N replika asli; silinder kosong terputus. Baut terpilih ditarik hanya jika quorum dapat merespons. Penghubung terangkat berarti irisan pada set tetap tidak dijamin. Quorum sloppy memakai pengganti di rak samping, tetapi irisan saja tidak membuktikan linearizabilitas.",
+    "key.0": "Kunci replika asli",
+    "key.1": "Baut baca; baut bawah tulis",
+    "key.2": "Penghubung irisan set tetap",
+    "key.3": "Rak samping: hinted handoff",
+    "readout": "N {n} · R {r} · W {w}",
+    "description": "{healthy} dari {n} replika asli sehat. Baca: {read}. Tulis: {write}. Irisan set tetap: {overlap}.",
+    "read": "Baca: {status}",
+    "write": "Tulis: {status}"
+  }
+}

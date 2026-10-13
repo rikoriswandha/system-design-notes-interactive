@@ -1,0 +1,38 @@
+{
+  "en": {
+    "title": "The keyed cash register",
+    "hint": "Click stop · arrows: retries",
+    "label": "A cash register with a keyed receipt stop and a reconciliation tray. The four counter windows show PSP calls, charge effects, duplicate charges, and orders pending reconciliation, from left to right. A stable key blocks the retry receipt; a new key opens the stop and creates extra charges.",
+    "aria": "Click the keyed receipt stop or its arm to toggle the payment key. Space or Enter also toggles it. Arrow keys change retries, Home selects a stable key, End a new key, Escape pauses the activity pulse. Swiping or clicking empty card space does not change the lab.",
+    "caption": "A timeout loses the response, not the charge. The keyed stop blocks extra monetary effects when retries keep the original key. A paper roller feeds the batch receipt; its extension tracks duplicate effects, not individual orders. The tray slides along guide rails as the pending fraction rises. The four windows read calls, effects, duplicates, and pending orders, left to right. The retry knob and webhook dial follow the lab controls; webhooks resolve unknown status only when there are no retries in this model. The idle stop-edge pulse indicates retry activity without changing the receipt length.",
+    "key.0": "Keyed stop: stable rejects another charge; new admits it",
+    "key.1": "Receipt extension: duplicate charge fraction",
+    "key.2": "Tray: pending fraction; webhook dial: delivery percentage",
+    "key.3": "Knurled knob: retries per lost response",
+    "read.0": "PSP calls {count}",
+    "read.1": "Charge effects {count}",
+    "read.2": "Duplicate charges {count}",
+    "read.3": "Pending orders {count}",
+    "stable": "Stable payment key",
+    "new": "New key on every retry",
+    "retries": "Retries {count}"
+  },
+  "id": {
+    "title": "Mesin kasir ber-key",
+    "hint": "Ketuk palang · panah: retry",
+    "label": "Mesin kasir dengan penghalang struk ber-key dan baki rekonsiliasi. Empat jendela penghitung menampilkan panggilan PSP, efek charge, charge duplikat, dan order pending rekonsiliasi dari kiri ke kanan. Key tetap menahan struk retry; key baru membuka penghalang dan menghasilkan charge tambahan.",
+    "aria": "Klik palang penahan struk atau lengannya untuk mengganti key pembayaran. Spasi atau Enter juga mengganti key. Tombol panah mengubah retry, Home memilih key tetap, End key baru, Escape menjeda denyut aktivitas. Menggeser halaman atau mengeklik ruang kosong pada kartu tidak mengubah lab.",
+    "caption": "Timeout menghilangkan respons, bukan charge. Penghalang ber-key menahan efek uang tambahan jika retry mempertahankan key awal. Rol kertas memasok struk batch; panjangnya mengikuti proporsi charge duplikat, bukan jumlah order. Baki bergeser pada rel seiring kenaikan proporsi order pending. Empat jendela menampilkan call, efek, duplikat, dan order pending dari kiri ke kanan. Kenop retry dan dial webhook mengikuti kontrol lab; dalam model ini, webhook menyelesaikan status belum diketahui hanya jika tidak ada retry. Denyut tepi palang saat diam menunjukkan aktivitas retry tanpa mengubah panjang struk.",
+    "key.0": "Penghalang: key tetap menolak charge lagi; key baru meloloskan",
+    "key.1": "Panjang struk: proporsi charge duplikat",
+    "key.2": "Baki: proporsi pending; dial webhook: persentase tiba",
+    "key.3": "Kenop beralur: retry per respons hilang",
+    "read.0": "Panggilan PSP {count}",
+    "read.1": "Efek charge {count}",
+    "read.2": "Charge duplikat {count}",
+    "read.3": "Order pending {count}",
+    "stable": "Key pembayaran tetap",
+    "new": "Key baru tiap retry",
+    "retries": "Retry {count}"
+  }
+}

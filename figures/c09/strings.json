@@ -1,0 +1,34 @@
+{
+  "en": {
+    "title": "Frontier sorting bench",
+    "hint": "Hover timer · click · ← →",
+    "label": "A crawler sorting machine with a riveted frontier hopper, gravity-feed ramps, representative host queue chutes, clock escapements, downloader pick heads, a perforated content-hash sieve and collection bins. Two capacity scales compare worker and host limits.",
+    "aria": "Hover a timer or gate slide to preview the post-download delay; click that part to commit. Arrows change delay, Home and End select its limits, and Escape cancels a pointer preview.",
+    "caption": "The hopper and feed ramps supply representative host queues, not a literal host count. A page coupon waits after downloading; the clock hands and gate slides show the configured delay. Paired capacity scales use the lab's worker and host bars: the slower limit determines downloads. The sieve's diversion and the two bin levels show unique versus duplicate fractions, not counts of stored pages. The tour displays the lab's exact download, unique-page, storage and bandwidth results.",
+    "key.0": "Page coupon: representative crawl flow",
+    "key.1": "Clocks and slides: delay after downloading",
+    "key.2": "Paired scales: workers versus hosts",
+    "key.3": "Bin levels: unique versus duplicate fractions",
+    "rate": "Downloaded {n}/s",
+    "unique": "Unique {n}/s",
+    "storage": "Storage {n} TB/day",
+    "bandwidth": "Bandwidth {n} MB/s",
+    "description": "Delay after download: {delay} ms; duplicate content: {duplicate} percent."
+  },
+  "id": {
+    "title": "Mesin penyortir frontier",
+    "hint": "Sorot jam · klik · jeda ← →",
+    "label": "Mesin penyortir crawler dengan corong frontier berpaku keling, ramp pengumpan, contoh jalur antrean host, gerbang berjam, kepala pengunduh, saringan hash konten berlubang, dan bak penampung. Dua skala kapasitas membandingkan batas worker dan host.",
+    "aria": "Sorot jam atau penggeser gerbang untuk melihat pratinjau jeda setelah download; klik bagian itu untuk menerapkan. Panah mengubah jeda, Home dan End memilih batasnya, dan Escape membatalkan pratinjau pointer.",
+    "caption": "Corong dan ramp pengumpan mengisi contoh antrean host, bukan jumlah host sebenarnya. Kupon halaman menunggu setelah unduhan; jarum jam dan penggeser gerbang menunjukkan jeda yang diatur. Skala kapasitas memakai batang worker dan host dari lab: batas yang lebih lambat menentukan unduhan. Pengalihan saringan dan isi kedua bak menunjukkan proporsi konten unik dan duplikat, bukan jumlah halaman tersimpan. Tur menampilkan hasil unduhan, halaman unik, penyimpanan, dan bandwidth dari lab.",
+    "key.0": "Kupon halaman: contoh aliran crawl",
+    "key.1": "Jam dan penggeser: jeda setelah unduhan",
+    "key.2": "Skala berpasangan: worker versus host",
+    "key.3": "Isi bak: proporsi konten unik dan duplikat",
+    "rate": "Diunduh {n}/s",
+    "unique": "Unik {n}/s",
+    "storage": "Storage {n} TB/hari",
+    "bandwidth": "Bandwidth {n} MB/s",
+    "description": "Jeda setelah unduhan: {delay} ms; konten duplikat: {duplicate} persen."
+  }
+}

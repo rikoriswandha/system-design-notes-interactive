@@ -1,0 +1,42 @@
+{
+  "en": {
+    "title": "Transfer balance scales",
+    "hint": "Selector buttons · ← →",
+    "label": "Two column-supported platform scales with round dial faces, balance needles, and levelling feet represent A and C. Stamped metal-weight bundles sit on their platforms; a smaller tray holds in-flight value. The gantry carries a suspended stack identifying the final transfer and moves it to the recovery destination. Each dial spans zero to the initial balance of A. A journal tape shows snapshot-tail events and replay seconds, with quick replay motion slowed for visibility.",
+    "aria": "Transfer balance scales. Hover or tap A's scale to compensate, the in-flight tray to leave value unrecovered, or C's scale to resume credit. The three selector buttons offer the same choices. A clean click or tap commits; dragging, scrolling, and clicking empty card space do not change the lab. Arrows choose recovery; Home and End select extremes, Enter or Space cycles choices, and Escape ends the preview.",
+    "caption": "A, in-flight value, and C always retain the initial value together. After a debit-only failure, resume delivers the last transfer to C; compensation returns it to A; no recovery leaves it in-flight. Platform-scale needles read the balances against the initial balance of A. Stamped bundles divide each pan's value, and their total matches its readout. The suspended stack identifies the last transfer, not additional value. The tape shows snapshot-tail events and replay time; quick replay motion is slowed for visibility. The idle gantry traces in-flight to the effective destination without changing the lab.",
+    "key.0": "Last-transfer marker: compensation, in-flight, or credit",
+    "key.1": "Stamped bundles and balance dials: A, in-flight, C",
+    "key.2": "Journal tape and feed: events and replay time",
+    "key.3": "Selector buttons, left to right: compensate · unrecovered · resume credit",
+    "readout": "A:{a} C:{c} · in-flight:{hold}",
+    "tape": "{events} events · {seconds} s",
+    "description": "A {a}, C {c}, in-flight {hold}. Recovery: {recovery}.",
+    "balance.0": "A {value}",
+    "balance.1": "In-flight {value}",
+    "balance.2": "C {value}",
+    "mode.cancel": "Compensate debit",
+    "mode.none": "Not yet recovered",
+    "mode.resume": "Resume credit"
+  },
+  "id": {
+    "title": "Neraca transfer",
+    "hint": "Tombol pemulihan · ← →",
+    "label": "Dua timbangan berplatform dengan tiang, muka dial bundar, jarum saldo, dan kaki penyetel mewakili A dan C. Tumpukan beban logam bercap berada di atas platform; baki kecil menampung nilai in-flight. Gantri membawa tumpukan tergantung yang menandai transfer terakhir dan mengarahkannya ke tujuan pemulihan. Rentang setiap dial adalah nol sampai saldo awal A. Pita jurnal menampilkan event setelah snapshot dan detik replay; gerak replay cepat diperlambat agar terlihat.",
+    "aria": "Neraca transfer. Sorot atau ketuk timbangan A untuk kompensasi, baki in-flight untuk membiarkan nilai belum dipulihkan, atau timbangan C untuk lanjutkan credit. Tiga tombol pemulihan menawarkan pilihan yang sama. Klik atau ketukan singkat menerapkan pilihan; menggeser, menggulir, dan mengetuk ruang kosong tidak mengubah lab. Panah memilih pemulihan; Home dan End memilih ujung, Enter atau Spasi menggilir pilihan, dan Escape mengakhiri pratinjau.",
+    "caption": "Jumlah nilai di A, in-flight, dan C selalu sama dengan saldo awal. Jika berhenti setelah debit sebelum credit, lanjutkan credit mengirim transfer terakhir ke C; kompensasi mengembalikannya ke A; tanpa pemulihan, nilainya tetap in-flight. Jarum timbangan menunjukkan saldo dengan rentang sebesar saldo awal A. Beban bercap membagi nilai setiap baki dalam unit minor, dan jumlahnya sama dengan pembacaan saldo. Tumpukan tergantung menandai transfer terakhir, bukan nilai tambahan. Pita menampilkan event setelah snapshot dan waktu replay; gerak replay cepat diperlambat agar terlihat. Gantri otomatis menelusuri in-flight ke tujuan yang berlaku tanpa mengubah lab.",
+    "key.0": "Penanda transfer terakhir: kembali, in-flight, atau selesai credit",
+    "key.1": "Beban bercap dan dial saldo: A, in-flight, C",
+    "key.2": "Pita jurnal dan pengumpan: event dan waktu replay",
+    "key.3": "Tombol dari kiri ke kanan: kompensasi · belum dipulihkan · lanjutkan credit",
+    "readout": "A:{a} C:{c} · in-flight:{hold}",
+    "tape": "{events} event · {seconds} detik",
+    "description": "A {a}, C {c}, nilai in-flight {hold}. Pemulihan: {recovery}.",
+    "balance.0": "A {value}",
+    "balance.1": "In-flight {value}",
+    "balance.2": "C {value}",
+    "mode.cancel": "Kompensasi debit",
+    "mode.none": "Belum dipulihkan",
+    "mode.resume": "Lanjutkan credit"
+  }
+}

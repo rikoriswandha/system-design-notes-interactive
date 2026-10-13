@@ -1,0 +1,42 @@
+{
+  "en": {
+    "title": "Film duplication bench",
+    "hint": "Hover CDN scale · tap · ← →",
+    "label": "A film duplication bench with spoked reels, perforated film threaded around sprockets, a bank of encoding heads with sliding gates, one output reel and occupied rack latch per encoding variant, and a CDN winding magazine beside an origin reel.",
+    "aria": "Hover the CDN hit scale to preview a rate, then tap the scale to apply it. Arrow keys change hits by one percent, Shift by ten; Home and End select the extremes. Enter cycles the model readouts; Escape returns to worker demand.",
+    "caption": "The head bank represents the entire worker pool: its fixed housings are not a worker count. Perforated film wraps the sprockets and enters the encoding gates. Output reels and occupied magazine latches match the variant count. Gates and the left slider show load relative to worker capacity, capped at full scale; the right slider shows CDN hits. Spindle pointers illustrate upload and playback flow, not elapsed processing time. More cache hits shift playback from origin to CDN but never remove viewer egress.",
+    "key.0": "Upload reel → worker-pool drive",
+    "key.1": "One output reel per variant",
+    "key.2": "Load / CDN hits; edge / origin",
+    "read.0": "Minimum workers {n}",
+    "read.1": "Backlog +{n} media min/min",
+    "read.2": "Viewer egress {n} Gbps",
+    "read.3": "Origin {n} Gbps",
+    "preview": "CDN hits {n}% · tap to set",
+    "describe": "CDN hits {hit} percent; {workers} workers and {variants} encoding variants.",
+    "phase.0": "Ideal minimum worker demand",
+    "phase.1": "Encoding backlog growth",
+    "phase.2": "Total traffic to viewers",
+    "phase.3": "Cache misses draw from origin"
+  },
+  "id": {
+    "title": "Meja pengganda film",
+    "hint": "Sorot skala CDN · ketuk · ← →",
+    "label": "Meja pengganda film dengan gulungan berjeruji, film berlubang yang melingkari sproket, deretan kepala encoding berpintu geser, satu gulungan keluaran dan pengait rak terisi per varian, serta magazin CDN di samping gulungan origin.",
+    "aria": "Sorot skala hit CDN untuk melihat nilai, lalu ketuk skala untuk menerapkannya. Tombol panah mengubah hit satu persen, Shift sepuluh persen; Home dan End memilih batas. Enter mengganti pembacaan model; Escape kembali ke kebutuhan worker.",
+    "caption": "Deretan kepala encoding mewakili seluruh kumpulan worker: jumlah rumah kepala yang tetap bukan jumlah worker. Film berlubang melingkari sproket dan masuk ke pintu encoding. Jumlah gulungan keluaran dan pengait magazin terisi mengikuti varian. Pintu dan penggeser kiri menunjukkan beban terhadap kapasitas worker, dibatasi pada skala penuh; penggeser kanan menunjukkan hit CDN. Penunjuk poros menggambarkan aliran unggahan dan pemutaran, bukan waktu pemrosesan. Hit yang lebih tinggi memindahkan pemutaran dari origin ke CDN, tetapi tidak menghilangkan egress penonton.",
+    "key.0": "Gulungan unggahan → worker",
+    "key.1": "Satu gulungan per varian",
+    "key.2": "Beban / hit CDN; edge / origin",
+    "read.0": "Worker minimum {n}",
+    "read.1": "Backlog +{n} mnt media/mnt",
+    "read.2": "Egress penonton {n} Gbps",
+    "read.3": "Origin {n} Gbps",
+    "preview": "Hit CDN {n}% · ketuk untuk atur",
+    "describe": "Hit CDN {hit} persen; {workers} worker dan {variants} varian encoding.",
+    "phase.0": "Kebutuhan minimum worker ideal",
+    "phase.1": "Pertumbuhan antrean encoding",
+    "phase.2": "Total trafik ke penonton",
+    "phase.3": "Cache miss mengambil dari origin"
+  }
+}

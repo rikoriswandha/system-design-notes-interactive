@@ -1,0 +1,30 @@
+{
+  "en": {
+    "title": "Partition sealing line",
+    "hint": "← → lanes · ↑ ↓ heads",
+    "label": "An isometric bottling line with gated conveyors, bottles representing batches on open partitions, capping spindles representing consumers, an idle-head parking rack, and a backlog follower. Counters show incoming events per second, capacity per second, queued events and drain seconds.",
+    "aria": "Left and right change partitions; up and down change consumers. Home and End choose the partition limits. Hover a conveyor lane to preview its partition count; click the lane or press Enter to commit that preview. Escape clears the preview.",
+    "caption": "Open lanes are partitions; capping heads are consumers. One illustrative batch bottle stands on each open lane, not one bottle per event. Extra heads park idle. With fewer heads than lanes, each head visits its assigned lanes without increasing its capacity. Idle capping strokes slow with the model's utilization; they are symbolic, not an event counter. The dark-edged follower measures backlog on a fixed scale. Rear counters show incoming events/s and capacity/s; front counters show queued events and drain seconds after arrivals stop. Readings and rounded drain seconds come from the lab.",
+    "key.0": "Open lanes and assigned consumer heads",
+    "key.1": "Closed lanes and parked idle heads",
+    "key.2": "Backlog follower on its accumulation tray",
+    "seconds": "{n} s",
+    "readout": "{a}/{c} active · drain {s} s",
+    "preview": "Preview: {p} partitions",
+    "describe": "{p} partitions, {c} consumers, {a} active. Incoming {r} events/s; capacity {cap} events/s. After {s} seconds: {b} queued events; {d} seconds to drain after arrivals stop."
+  },
+  "id": {
+    "title": "Lini penyegel partisi",
+    "hint": "← → jalur · ↑ ↓ kepala",
+    "label": "Lini pembotolan isometrik dengan konveyor berpintu, botol sebagai ilustrasi batch pada partisi terbuka, kepala penutup sebagai konsumen, rak parkir kepala menganggur, dan penggeser backlog. Penghitung menunjukkan event masuk/s, kapasitas event/s, backlog akhir, dan waktu drain.",
+    "aria": "Kiri dan kanan mengubah partisi; atas dan bawah mengubah konsumen. Home dan End memilih batas partisi. Arahkan penunjuk ke jalur konveyor untuk melihat pratinjau jumlah partisi; klik jalur atau tekan Enter untuk menerapkan pratinjau. Escape menutup pratinjau.",
+    "caption": "Jalur terbuka adalah partisi; kepala penutup adalah konsumen. Setiap jalur terbuka memiliki satu botol sebagai ilustrasi batch, bukan satu botol per event. Kepala berlebih parkir dan menganggur. Jika kepala lebih sedikit daripada jalur, setiap kepala berpindah di antara jalur yang ditugaskan tanpa menambah kapasitasnya. Gerak penutupan otomatis melambat sesuai utilisasi model; gerakan ini simbolis, bukan penghitung event. Penggeser bertepi gelap mengukur backlog pada skala tetap. Penghitung belakang menunjukkan event masuk/s dan kapasitas event/s; penghitung depan menunjukkan backlog akhir dan waktu drain setelah input berhenti. Nilai dan pembulatan waktu drain mengikuti lab.",
+    "key.0": "Jalur terbuka dan kepala konsumen aktif",
+    "key.1": "Jalur tertutup dan kepala menganggur",
+    "key.2": "Penggeser backlog di baki penampung",
+    "seconds": "{n} dtk",
+    "readout": "{a}/{c} aktif · drain {s} dtk",
+    "preview": "Pratinjau: {p} partisi",
+    "describe": "{p} partisi, {c} konsumen, {a} aktif. Masuk {r} event/s; kapasitas {cap} event/s. Durasi lonjakan {s} detik; backlog akhir {b} event; waktu drain setelah input berhenti {d} detik."
+  }
+}

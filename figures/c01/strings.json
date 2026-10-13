@@ -1,0 +1,42 @@
+{
+  "en": {
+    "title": "Capacity test bench",
+    "hint": "← → traffic · ↑ ↓ pumps",
+    "label": "A hydraulic capacity bench with removable, tie-rod pump cartridges and moving sight-glass pistons. The inlet manifold distributes traffic across installed servers; the cache pot bypasses the database restrictor. Pale cartridges have failed. Four dial needles show incoming requests, cache hits, offered database demand, and dropped requests.",
+    "aria": "Capacity bench. Left and right change traffic; up and down change servers; Home and End set traffic extremes; Space or Enter fails or restores one server. Hover to inspect a dial; click or tap the dial to select it. Click or tap the mixing valve, or use the Cache button, to raise cache hits.",
+    "caption": "Each installed pump represents a web server limited to 600 requests/s. Pump pistons rise with demanded web utilization; the cache piston shows hit ratio, and the database piston rises with demand against its 500 queries/s limit. Pistons stop at full scale, while dials keep reporting the exact demand. Caching reduces database misses, not web work. Overflow shows unserved requests, not a queue. The bench follows the lab model, not hydraulic physics.",
+    "key.0": "Pump cartridges = web servers",
+    "key.1": "Bypass pot = cache · right pot = database",
+    "key.2": "Selected dial · drain = dropped requests",
+    "add": "Add server",
+    "cacheButton": "Cache +5%",
+    "failure": "Fail server",
+    "restore": "Restore server",
+    "waiting": "Waiting for lab",
+    "readout.0": "Incoming {value} req/s",
+    "readout.1": "Cache hits {value}%",
+    "readout.2": "DB offered {value} q/s",
+    "readout.3": "Dropped {value} req/s",
+    "state": "Incoming {incoming} requests/s; {active} active servers; {hit}% cache hits; served {served}, dropped {drop} requests/s."
+  },
+  "id": {
+    "title": "Bangku uji kapasitas",
+    "hint": "← → trafik · ↑ ↓ pompa",
+    "label": "Bangku uji kapasitas hidraulis dengan kartrid pompa berbatang pengikat dan piston bergerak di kaca pemantau. Manifold masuk membagi request ke server terpasang; tabung cache memintas pembatas database. Kartrid pucat sedang gagal. Empat jarum menunjukkan request masuk, cache hit, beban yang ditawarkan ke database, dan request tidak terlayani.",
+    "aria": "Bangku kapasitas. Kiri dan kanan mengubah trafik; atas dan bawah mengubah server; Home dan End mengatur batas trafik; Spasi atau Enter mematikan atau memulihkan satu server. Arahkan penunjuk untuk melihat meter; klik atau ketuk meter untuk memilihnya. Klik atau ketuk katup pencampur, atau gunakan tombol Cache, untuk menaikkan rasio hit.",
+    "caption": "Setiap pompa mewakili web server dengan batas 600 req/s. Piston pompa naik mengikuti kebutuhan utilisasi web; piston cache menunjukkan rasio hit, sedangkan piston database naik mengikuti beban terhadap batas 500 query/s. Piston berhenti di skala penuh, tetapi meter tetap menunjukkan beban sebenarnya. Cache mengurangi miss database, bukan kerja web. Limpasan menunjukkan request tidak terlayani, bukan antrean. Bangku mengikuti model lab, bukan fisika hidraulis.",
+    "key.0": "Kartrid pompa = web server",
+    "key.1": "Tabung pintas = cache · kanan = database",
+    "key.2": "Meter terpilih · limpasan = tak terlayani",
+    "add": "Tambah server",
+    "cacheButton": "Cache +5%",
+    "failure": "Matikan server",
+    "restore": "Pulihkan server",
+    "waiting": "Menunggu lab",
+    "readout.0": "Masuk {value} req/s",
+    "readout.1": "Cache hit {value}%",
+    "readout.2": "Beban DB {value} query/s",
+    "readout.3": "Tidak terlayani {value} req/s",
+    "state": "Masuk {incoming} req/s; {active} server aktif; cache hit {hit}%; terlayani {served}, tidak terlayani {drop} req/s."
+  }
+}

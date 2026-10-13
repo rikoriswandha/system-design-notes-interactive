@@ -1,0 +1,40 @@
+{
+  "en": {
+    "title": "Click inspection conveyor",
+    "hint": "← → grace · Space ID · Enter ⏱",
+    "label": "A click inspection conveyor with an ID stamp and a sliding lateness shutter. Three collection trays hold the lab's window counts; the two lower trays hold discarded duplicates and late clicks.",
+    "aria": "Click the shutter to set lateness; arrows change it, Home and End choose its limits. Click the stamp or press Space to toggle ID deduplication. Click the front selector or press Enter to switch the window clock. Hover over the shutter to preview lateness without changing the lab.",
+    "caption": "The ID stamp rejects resends before the lateness shutter tests arrival against window end plus tolerance; arrival exactly at the deadline is late. The front selector chooses event time (left) or processing time (right). Processing time bypasses the lateness check and assigns clicks by arrival time. The upper rack holds the three reported windows, in order; the lower trays hold duplicates (left) and late clicks (right). Each ID-marked token is an actual arrival in the lab. The idle replay shows click time → arrival time and the exclusive deadline, then the model's destination; the shutter closes for a late arrival. Hover or focus restores the counted/duplicate/late/audit totals. This is the lab's simplified deadline model, not a full streaming watermark implementation.",
+    "key.0": "Shutter: allowed lateness",
+    "key.1": "Rack: window counts",
+    "key.2": "Lower trays: duplicate / late",
+    "key.3": "Front selector: window clock",
+    "readout": "{count} clicks · D{duplicate} L{late} · Δ{difference}",
+    "deadlineReadout": "{id} · {event}→{arrival} s · <{deadline}",
+    "eventReadout": "{id} · {event}→{arrival} s · {decision}",
+    "duplicateShort": "duplicate",
+    "lateShort": "late",
+    "windowShort": "window {window}",
+    "description": "Lateness {lateness} seconds; deduplication {dedupe}; {clock}. Counted {count}, duplicates {duplicate}, late {late}, audit difference {difference}.",
+    "enabled": "enabled", "disabled": "disabled", "event": "event time", "processing": "processing time"
+  },
+  "id": {
+    "title": "Konveyor pemeriksa klik",
+    "hint": "← → toleransi · Spasi · Enter",
+    "label": "Konveyor pemeriksa klik dengan stempel ID dan pintu geser keterlambatan. Tiga baki menampung count window lab; dua baki bawah menampung duplikat dan klik terlambat yang dibuang.",
+    "aria": "Klik pintu untuk mengatur toleransi; tombol panah mengubahnya, Home dan End memilih batasnya. Klik stempel atau tekan Spasi untuk mengganti deduplikasi ID. Klik pemilih depan atau tekan Enter untuk mengganti dasar window. Arahkan pointer ke pintu untuk melihat toleransi tanpa mengubah lab.",
+    "caption": "Stempel ID membuang resend sebelum pintu keterlambatan membandingkan arrival dengan akhir window ditambah toleransi; arrival tepat pada deadline dianggap terlambat. Pemilih depan menentukan event time (kiri) atau processing time (kanan). Processing time melewati pemeriksaan keterlambatan dan menentukan window dari waktu arrival. Rak atas menampung tiga window hasil lab secara berurutan; baki bawah menampung duplikat (kiri) dan klik terlambat (kanan). Setiap keping ber-ID mewakili arrival nyata dalam lab. Replay otomatis menampilkan waktu klik → waktu arrival dan deadline eksklusif, lalu tujuan dari model; pintu menutup untuk arrival terlambat. Arahkan pointer atau fokuskan gambar untuk melihat total klik, duplikat, keterlambatan, dan selisih audit. Ini model deadline sederhana dalam lab, bukan implementasi watermark mesin stream lengkap.",
+    "key.0": "Pintu: toleransi keterlambatan",
+    "key.1": "Rak: count window",
+    "key.2": "Baki bawah: duplikat / terlambat",
+    "key.3": "Pemilih depan: dasar window",
+    "readout": "{count} klik · D{duplicate} L{late} · Δ{difference}",
+    "deadlineReadout": "{id} · {event}→{arrival} s · <{deadline}",
+    "eventReadout": "{id} · {event}→{arrival} s · {decision}",
+    "duplicateShort": "duplikat",
+    "lateShort": "terlambat",
+    "windowShort": "window {window}",
+    "description": "Toleransi {lateness} detik; deduplikasi {dedupe}; {clock}. Terhitung {count}, duplikat {duplicate}, terlambat {late}, selisih audit {difference}.",
+    "enabled": "aktif", "disabled": "nonaktif", "event": "event time", "processing": "processing time"
+  }
+}

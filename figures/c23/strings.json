@@ -1,0 +1,32 @@
+{
+  "en": {
+    "title": "Outbound sorting desk",
+    "hint": "Tap station · ←→ workers",
+    "label": "A postal sorting bench with roller axles, rubber SMTP stamps, destination pigeonholes, retry and backlog letter trays, and a dial attachment scale. Fixed stations are illustrative, not a worker count.",
+    "aria": "Tap an SMTP worker station to set the worker count, or use Left and Right. Up and Down change temporary failure probability. Home and End set worker limits. Hover over machine parts or press Space or Enter to inspect attempts, deliveries, backlog and transfer. Escape returns to attempts. Swiping scrolls the page without changing the lab.",
+    "caption": "Every failed attempt consumes worker capacity again. The diverter follows failure probability; the letter stacks sample additional required attempts and backlog after one minute, rather than showing the entire queue. The postal scale's needle follows average encoded payload. The moving envelope illustrates processing, not a delivery count; SMTP handoff is not inbox placement.",
+    "key.0": "Retry diverter · failure probability",
+    "key.1": "Queue tray · backlog after one minute",
+    "key.2": "Scale · encoded payload and transfer",
+    "read.0": "{value} attempts/s",
+    "read.1": "{value} delivered/s",
+    "read.2": "{value} queued after 1 min",
+    "read.3": "{value} MB/s outbound",
+    "description": "SMTP workers: {workers}; {failure}% temporary failures. {attempts} required attempts per second, {delivered} deliveries per second, {backlog} queued after one minute, {transfer} MB per second outbound."
+  },
+  "id": {
+    "title": "Meja sortir email keluar",
+    "hint": "Klik SMTP worker · ←→ worker",
+    "label": "Meja sortir kantor pos dengan poros rol, stempel SMTP, rak tujuan, tumpukan surat untuk retry dan backlog, serta timbangan lampiran berjarum. Stasiun tetap hanya ilustrasi, bukan jumlah worker.",
+    "aria": "Klik stasiun SMTP worker untuk mengatur jumlah worker, atau gunakan panah Kiri dan Kanan. Panah Atas dan Bawah mengubah peluang kegagalan sementara. Home dan End memilih batas jumlah worker. Arahkan penunjuk ke bagian mesin atau tekan Spasi atau Enter untuk melihat attempt, pengiriman, backlog, dan transfer. Escape kembali ke attempt. Geser layar untuk menggulir halaman tanpa mengubah lab.",
+    "caption": "Setiap attempt gagal kembali memakai kapasitas worker. Pengalih mengikuti peluang kegagalan; tumpukan surat menampilkan sampel attempt tambahan yang diperlukan dan backlog setelah satu menit, bukan seluruh antrean. Jarum timbangan mengikuti payload rata-rata terenkode. Amplop bergerak menggambarkan pemrosesan, bukan jumlah pengiriman; penerimaan SMTP bukan jaminan masuk kotak masuk.",
+    "key.0": "Pengalih retry · peluang kegagalan",
+    "key.1": "Baki backlog · setelah satu menit",
+    "key.2": "Timbangan · payload dan transfer",
+    "read.0": "{value} attempt/s",
+    "read.1": "{value} pesan/s terkirim",
+    "read.2": "{value} backlog setelah 1 mnt",
+    "read.3": "{value} MB/s outbound",
+    "description": "SMTP worker: {workers}; {failure}% kegagalan sementara. {attempts} attempt/s diperlukan, {delivered} pesan/s terkirim, backlog {backlog} pesan setelah satu menit, transfer outbound {transfer} MB/s."
+  }
+}

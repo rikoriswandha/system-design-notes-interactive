@@ -1,0 +1,24 @@
+{
+ "en": {
+ "title":"Chat switchboard", "hint":"Tap a socket · arrows adjust",
+ "label":"A sloped telephone switchboard with plugged cords, a keyshelf, a recipient selector, a durable inbox counter, and a heartbeat regulator. Active cord circuits equal devices per user; the selector follows group size.",
+ "aria":"Click a socket to choose devices per user. Arrow keys adjust devices, Home and End select the limits. Space or Enter cycles the metric readout. Hover previews a metric; empty card space does not change the lab.",
+ "caption":"The selector expands with group size: every message is stored and referenced in each other member’s inbox. The cabinet-side inbox meter displays real references per second; connected cords equal devices per user. The moving signal traces one illustrative delivery, not message throughput. The regulator turns once per heartbeat interval. Four sockets are per-user capacity, not a count of users.",
+ "key.0":"Durable inbox tray", "key.1":"Recipient-span selector", "key.2":"Delivery / heartbeat signal",
+ "read.connections":"Sockets {value}", "read.heartbeat":"Heartbeats {value}/s", "read.inbox":"Inbox refs {value}/s", "read.delivery":"Deliveries {value}/s",
+ "counter":"{value}/s",
+ "status":"{members} members, {devices} devices per user, heartbeat every {heartbeat} seconds, {online}% online.",
+ "phase.connections":"Persistent device connections", "phase.heartbeat":"Presence supervision", "phase.inbox":"Durable inbox references", "phase.delivery":"Online device delivery"
+ },
+ "id": {
+ "title":"Panel sambungan chat", "hint":"Ketuk soket · panah atur",
+ "label":"Panel telepon miring dengan kabel bersteker, rak tombol, pemilih penerima, penghitung inbox permanen, dan pengatur heartbeat. Jumlah rangkaian kabel aktif sama dengan perangkat per pengguna; pemilih mengikuti ukuran grup.",
+ "aria":"Klik soket untuk memilih perangkat per pengguna. Tombol panah mengatur perangkat, Home dan End memilih batas. Spasi atau Enter mengganti metrik. Arahkan pointer untuk melihat metrik; area kosong tidak mengubah lab.",
+ "caption":"Rentang pemilih bertambah sesuai ukuran grup: setiap pesan disimpan dan referensinya masuk ke inbox semua anggota lain. Penghitung inbox di sisi kabinet menampilkan referensi per detik dari model; jumlah kabel tersambung sama dengan perangkat per pengguna. Sinyal bergerak menelusuri satu contoh pengiriman, bukan laju pesan. Pengatur berputar sekali setiap interval heartbeat. Empat soket adalah kapasitas per pengguna, bukan jumlah pengguna.",
+ "key.0":"Baki inbox permanen", "key.1":"Pemilih rentang penerima", "key.2":"Sinyal kirim / heartbeat",
+ "read.connections":"Koneksi {value}", "read.heartbeat":"Heartbeat {value}/s", "read.inbox":"Referensi inbox {value}/s", "read.delivery":"Pengiriman {value}/s",
+ "counter":"{value}/s",
+ "status":"{members} anggota, {devices} perangkat per pengguna, heartbeat setiap {heartbeat} detik, {online}% online.",
+ "phase.connections":"Sambungan perangkat persisten", "phase.heartbeat":"Pengawasan kehadiran", "phase.inbox":"Referensi inbox permanen", "phase.delivery":"Pengiriman perangkat online"
+ }
+}

@@ -1,0 +1,36 @@
+{
+  "en": {
+    "title": "Interview timekeeper",
+    "hint": "Dial/crowns · arrows · Enter",
+    "label": "A wound interview timer with a knurled bezel, four setting crowns and three captive stop pegs. The engraved sector is the remaining deep-dive time. One dark hand visits the real stage boundaries; thin rims show excess allocation and missing clarification. A small gauge shows the deep-dive percentage.",
+    "aria": "Tap a crown to increase its setting; Shift-tap decreases it. Tap the dial to move the selected stage stop. Left and right select clarification, initial design, wrap-up or total time; up and down adjust it. Home and End set limits. Enter changes requirement ambiguity. Escape selects clarification.",
+    "caption": "One turn is the available discussion. Three pegs mark the stage budgets up to that limit, on separate tracks so they stay apart when deep-dive time is zero. Four crowns set clarification, initial design, wrap-up and available minutes, in that order. The engraved sector is the deep-dive remainder. Thin rims show missing clarification and excess allocation; the small gauge measures remaining share, not interview success.",
+    "key.0": "Hand: actual stage boundaries",
+    "key.1": "Clarification → design → wrap-up",
+    "key.2": "Thin rim: shortfall / excess",
+    "readout": "Deep {deep}m · over {over}m · gap {gap}m",
+    "selection": "{name}: {value} minutes. Deep-dive share {share} percent.",
+    "minutes": "{value} min",
+    "control.scope": "Clarification",
+    "control.high": "Initial design",
+    "control.wrap": "Wrap-up",
+    "control.total": "Available time"
+  },
+  "id": {
+    "title": "Pengatur waktu diskusi",
+    "hint": "Dial/kenop · panah · Enter",
+    "label": "Pengatur waktu wawancara mekanis dengan bezel beralur, empat kenop pengaturan, dan tiga pin pembatas. Sektor berukir adalah sisa waktu deep dive. Satu jarum gelap mengunjungi batas tahap yang sebenarnya; tepi tipis menunjukkan kelebihan alokasi dan kekurangan klarifikasi. Meter kecil menunjukkan persentase deep dive.",
+    "aria": "Ketuk kenop untuk menambah nilainya; Shift-ketuk untuk mengurangi. Ketuk dial untuk memindahkan batas tahap yang dipilih. Panah kiri dan kanan memilih klarifikasi, desain awal, penutup, atau total waktu; panah atas dan bawah mengubahnya. Home dan End memilih batas. Enter mengubah ambiguitas kebutuhan. Escape memilih klarifikasi.",
+    "caption": "Satu putaran adalah seluruh waktu diskusi. Tiga pin menandai anggaran tahap hingga batas itu, pada jalur terpisah agar tidak bertabrakan saat waktu deep dive habis. Keempat kenop mengatur klarifikasi, desain awal, penutup, dan total menit, secara berurutan. Sektor berukir adalah sisa waktu deep dive. Tepi tipis menunjukkan kekurangan klarifikasi dan kelebihan alokasi; meter kecil mengukur porsi tersisa, bukan keberhasilan wawancara.",
+    "key.0": "Jarum: batas tahap sebenarnya",
+    "key.1": "Klarifikasi → desain → penutup",
+    "key.2": "Tepi tipis: kekurangan / kelebihan",
+    "readout": "Deep {deep}m · lebih {over}m · kurang {gap}m",
+    "selection": "{name}: {value} menit. Porsi deep dive {share} persen.",
+    "minutes": "{value}m",
+    "control.scope": "Klarifikasi",
+    "control.high": "Desain awal",
+    "control.wrap": "Penutup",
+    "control.total": "Waktu tersedia"
+  }
+}

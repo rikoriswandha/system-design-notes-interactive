@@ -1,0 +1,38 @@
+{
+  "en": {
+    "title": "GPS tape recorder",
+    "hint": "Tap batch · arrows · Enter",
+    "label": "A GPS strip-chart recorder: bearing-mounted feed drums, ruled tape, a traversing pickup head and batch stop, plus two ETA tracks and a pointer selecting the faster route.",
+    "aria": "Hover over the tape ruler to preview a batch size; tap to apply it. Arrows change batching, Home and End select extremes. Enter or the small route knob toggles congestion; Escape cancels the preview.",
+    "caption": "The tape shows one batch of GPS samples; the pickup head visits them at the lab's sampling interval. Its stop changes requests and maximum wait, not point ingestion. Rear ETA track: main road. Front track: alternative. The pointer selects the faster route. Hover previews batching without changing the lab; tap the small route knob or press Enter to change congestion.",
+    "key.0": "Tape stop: points per request",
+    "key.1": "Pointer: fastest of two routes",
+    "points": "{n} pt/s",
+    "requests": "{n}/s",
+    "wait": "{n} s",
+    "eta": "{n} min",
+    "readout": "{batch} pt/batch · {eta} min",
+    "description": "{batch} points per batch, maximum wait {wait} seconds; {route}, ETA {eta} minutes.",
+    "description.one": "{batch} point per batch, maximum wait {wait} seconds; {route}, ETA {eta} minutes.",
+    "main": "main road",
+    "alternative": "alternative road"
+  },
+  "id": {
+    "title": "Perekam pita GPS",
+    "hint": "Ketuk batch · panah · Enter",
+    "label": "Perekam pita GPS: drum pengumpan pada bantalan, pita bergaris, kepala pemindai dan pembatas batch, serta dua jalur ETA dengan jarum pemilih rute tercepat.",
+    "aria": "Sorot penggaris pita untuk pratinjau ukuran batch; ketuk untuk menerapkan. Panah mengubah batch, Home dan End memilih batas. Enter atau kenop rute kecil mengubah kemacetan; Escape membatalkan pratinjau.",
+    "caption": "Pita menampilkan satu batch sampel GPS; kepala pemindai mengunjunginya sesuai interval sampling lab. Pembatasnya mengubah jumlah permintaan dan waktu tunggu maksimum, bukan laju titik yang masuk. Jalur ETA belakang: jalan utama. Jalur depan: alternatif. Jarum memilih rute tercepat. Sorot untuk pratinjau batch tanpa mengubah lab; ketuk kenop rute kecil atau tekan Enter untuk mengubah kemacetan.",
+    "key.0": "Pembatas pita: titik per permintaan",
+    "key.1": "Jarum: rute tercepat dari dua rute",
+    "points": "{n} titik/s",
+    "requests": "{n} req/s",
+    "wait": "{n} detik",
+    "eta": "{n} menit",
+    "readout": "{batch} titik/batch · {eta} menit",
+    "description": "{batch} titik per batch, waktu tunggu maksimum {wait} detik; {route}, ETA {eta} menit.",
+    "description.one": "{batch} titik per batch, waktu tunggu maksimum {wait} detik; {route}, ETA {eta} menit.",
+    "main": "jalan utama",
+    "alternative": "rute alternatif"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "en": {
+    "title": "Successor dividing head",
+    "hint": "← → key · ↑ ↓ membership",
+    "label": "An isometric rotary dividing head on a T-slotted bed with stepped chuck jaws, a worm housing and a perforated index plate with a crank plunger. The inner rim has one witness hole for every real key hash; the outer rim has a hole for every virtual-node hash. A broad headed inspection pin selects a key and a second pin marks its clockwise successor. Changed-key witnesses and the selected changed key lift.",
+    "aria": "Hover over a key hole to inspect it; click to select it. Left and right follow hash order around the ring; Home and End select the first and last positions. Up adds a server and Down removes one. Space toggles changed-key lift; Escape lowers it.",
+    "caption": "Every key hash remains a witness hole on the inner rim, and every virtual-node hash remains a hole on the outer rim. The large inspection pins pick out one key and its first clockwise successor, including wrap-around; the selected key's physical owner is announced. Membership changes lift exactly the changed-key witnesses without hiding any of the lab's keys. The readout compares ring movement with modulo hashing.",
+    "key.0": "Key inspection pin and clockwise tracer",
+    "key.1": "Lifted witnesses: changed owners",
+    "key.2": "Outer holes and successor pin",
+    "add": "Add server",
+    "remove": "Remove server",
+    "waiting": "Waiting for lab",
+    "initial": "{keys} keys · {pegs} tokens",
+    "moved": "Moved {ring} · mod-N {mod}",
+    "selected": "Key {key} → server {node}; {count} keys owned"
+  },
+  "id": {
+    "title": "Kepala pembagi penerus",
+    "hint": "← → key · ↑ ↓ server",
+    "label": "Kepala pembagi putar isometrik pada alas beralur T, dengan rahang cekam bertingkat, rumah roda gigi cacing, serta pelat indeks berlubang dan engkol berpin. Tepi dalam memiliki satu lubang penanda untuk setiap hash key; tepi luar memiliki satu lubang untuk setiap hash virtual node. Pin inspeksi berkepala lebar memilih key, dan pin kedua menandai penerus searah jarum jam. Penanda key yang berganti pemilik terangkat.",
+    "aria": "Arahkan penunjuk ke lubang key untuk melihatnya; klik untuk memilihnya. Panah kiri dan kanan mengikuti urutan hash pada ring; Home dan End memilih posisi pertama dan terakhir. Panah atas menambah server, panah bawah menghapusnya. Spasi mengangkat atau menurunkan penanda key yang berpindah; Escape menurunkannya.",
+    "caption": "Setiap hash key tetap ditandai satu lubang pada tepi dalam; setiap hash virtual node ditandai satu lubang pada tepi luar. Dua pin inspeksi besar menunjukkan satu key dan penerus pertamanya searah jarum jam, termasuk saat melewati titik awal; pemilik fisik key pilihan diumumkan. Perubahan keanggotaan mengangkat tepat penanda key yang berganti pemilik, tanpa menyembunyikan key lab. Angka perpindahan di ring dibandingkan dengan hashing modulo.",
+    "key.0": "Pin inspeksi key dan penelusur penerus",
+    "key.1": "Penanda terangkat: berganti pemilik",
+    "key.2": "Lubang luar dan pin penerus",
+    "add": "Tambah server",
+    "remove": "Hapus server",
+    "waiting": "Menunggu lab",
+    "initial": "{keys} key · {pegs} token",
+    "moved": "Pindah {ring} · mod-N {mod}",
+    "selected": "Key {key} → server {node}; memiliki {count} key"
+  }
+}

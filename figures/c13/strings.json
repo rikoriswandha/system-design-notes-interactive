@@ -1,0 +1,38 @@
+{
+  "en": {
+    "title": "The prefix catalogue",
+    "hint": "Click cards/file · ← →",
+    "label": "An isometric cutaway card catalogue. In cached mode, the front holder contains exactly k cached results; a feeler sweeps the candidate file when subtree scan is selected. A square clock shows average snapshot age.",
+    "aria": "Click the front holder for cached top-k or a candidate file for subtree scan; clicking the feeler toggles lookup. Left/Right and Home/End choose the lookup; Space or Enter toggles it. Up/Down cycles metrics. Hover inspects the active read path; Escape returns the feeler.",
+    "caption": "One open drawer represents a prefix node. In cached mode, its front holder has exactly k result cards; the accordion behind it represents the entire candidate file, not one card per candidate. Cached lookup reads only the holder; scan traverses the file. The clock tracks average snapshot age (half the rebuild interval). Cycle metrics to see read work, memory, age, and daily ranking entries from the lab.",
+    "key.0": "Lookup feeler",
+    "key.1": "Cached result cards",
+    "key.2": "Candidate file / age clock",
+    "btn.cached": "Cached top-k",
+    "btn.scan": "Subtree scan",
+    "btn.metric": "Next metric",
+    "read.work": "{count}/query · {value}/s",
+    "read.memory": "Top-k memory · {value} MB",
+    "read.age": "Snapshot age · {value} h",
+    "read.build": "Ranking · {value}/day",
+    "description": "{mode}: {count} candidates per query, {work} reads per second, {memory} MB top-k memory, {age} hours average snapshot age, {build} ranking entries per day."
+  },
+  "id": {
+    "title": "Katalog prefix",
+    "hint": "Klik kartu/berkas · ← →",
+    "label": "Katalog kartu isometrik dengan laci terbuka. Dalam mode cached, wadah depan berisi tepat k hasil cached; alat pembaca menyusuri berkas kandidat saat scan subtree dipilih. Jam persegi menunjukkan rata-rata usia snapshot.",
+    "aria": "Klik wadah depan untuk top-k cached atau berkas kandidat untuk scan subtree; klik pembaca untuk mengganti lookup. Kiri/Kanan dan Home/End memilih lookup; Spasi atau Enter menggantinya. Atas/Bawah mengganti metrik. Arahkan penunjuk untuk menelusuri jalur baca aktif; Escape mengembalikan pembaca.",
+    "caption": "Laci terbuka mewakili satu node prefix. Dalam mode cached, wadah depan berisi tepat k kartu hasil; berkas berlipat di belakang mewakili seluruh kandidat, bukan satu kartu per kandidat. Lookup cached hanya membaca wadah depan; scan menyusuri berkas. Jam menunjukkan rata-rata usia snapshot (setengah interval rebuild). Ganti metrik untuk melihat pekerjaan baca, memori, usia, dan entri ranking harian dari lab.",
+    "key.0": "Alat pembaca lookup",
+    "key.1": "Kartu hasil cached",
+    "key.2": "Berkas kandidat / jam usia",
+    "btn.cached": "Top-k cached",
+    "btn.scan": "Scan subtree",
+    "btn.metric": "Metrik berikutnya",
+    "read.work": "{count}/query · {value}/s",
+    "read.memory": "Memori top-k · {value} MB",
+    "read.age": "Usia snapshot · {value} jam",
+    "read.build": "Ranking · {value}/hari",
+    "description": "{mode}: {count} kandidat per query, {work} bacaan per detik, memori top-k {memory} MB, rata-rata usia snapshot {age} jam, {build} entri ranking per hari."
+  }
+}

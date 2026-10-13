@@ -1,0 +1,32 @@
+{
+  "en": {
+    "title": "Code embosser",
+    "hint": "← → length · Enter 301/302",
+    "label": "A bench code embosser with fitted type wheels, a hand lever, a code-space gauge, a client-bypass chute, a cache shelf and a database-read meter. Fitted wheels match the selected code length.",
+    "aria": "Hover a type wheel or socket to preview length; tap or click it without dragging to commit. Tap the hand lever to switch redirect policy. Arrows change length, Home and End select its limits, Enter or Space toggles 301 and 302, Escape clears the preview.",
+    "caption": "Each fitted type wheel adds one base62 character; the stamped specimen shows length, not a generated URL. The indicator jaw shows code-space usage, capped when capacity is exceeded. The rear shutter represents client bypass: this lab assumes 70% for 301 and none for 302. The cache shutter removes hits before the database-read meter; these are model assumptions, not HTTP guarantees.",
+    "key.0": "Fitted wheels: code length",
+    "key.1": "Indicator jaw: capacity used",
+    "key.2": "Shutters: client bypass / cache",
+    "usage": "Code space · {value}%",
+    "service": "Service · {value}/s",
+    "database": "DB reads · {value}/s",
+    "mappings": "Mappings · {value} billion",
+    "description": "{length} characters; redirect {redirect}; cache hits {hit}%"
+  },
+  "id": {
+    "title": "Mesin pencetak kode",
+    "hint": "← → panjang · Enter 301/302",
+    "label": "Mesin pencetak kode dengan roda karakter, tuas tangan, pengukur ruang kode, jalur pintas klien, rak cache, dan penghitung baca database. Jumlah roda terpasang sesuai panjang kode yang dipilih.",
+    "aria": "Arahkan penunjuk ke roda atau dudukan untuk melihat panjang kode; ketuk tanpa menggeser untuk menerapkan. Ketuk tuas tangan untuk mengganti Redirect. Tombol panah mengubah panjang, Home dan End memilih batas, Enter atau Spasi beralih antara 301 dan 302, Escape menghapus pratinjau.",
+    "caption": "Setiap roda terpasang menambah satu karakter base62; contoh cetakan menunjukkan panjang, bukan URL yang dihasilkan. Rahang indikator menunjukkan pemakaian ruang kode dan berhenti di ujung saat kapasitas terlampaui. Penghalang belakang menunjukkan klik yang melewati layanan: lab ini mengasumsikan 70% untuk 301 dan nol untuk 302. Penghalang cache menyaring hit sebelum penghitung baca database; ini asumsi model, bukan jaminan HTTP.",
+    "key.0": "Roda terpasang: panjang kode",
+    "key.1": "Rahang indikator: kapasitas terpakai",
+    "key.2": "Penghalang: pintas klien / cache",
+    "usage": "Ruang kode · {value}%",
+    "service": "Layanan · {value}/s",
+    "database": "Baca DB · {value}/s",
+    "mappings": "Mapping logis · {value} miliar",
+    "description": "{length} karakter; Redirect {redirect}; hit cache {hit}%"
+  }
+}
