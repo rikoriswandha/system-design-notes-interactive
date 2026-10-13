@@ -13,6 +13,7 @@ The application separates simulation algorithms, message catalogs, and locale me
 | `dist/modules/group-*.js` | Shared chapter definitions and algorithms, referencing translation keys through `t()` |
 | `dist/course.js` | Shared course UI |
 | `dist/app.js` | Shared visual-lab UI and algorithms |
+| `figures/cNN/strings.json` | Source of the Indonesian and English `fig.cNN.*` figure strings; `npm run build:figures` writes them into `id.json` and `en.json` |
 
 ## Add a catalog
 
@@ -28,6 +29,10 @@ The application separates simulation algorithms, message catalogs, and locale me
 5. Start `npm run dev`, open `http://localhost:8000/?lang=de`, and review lessons, exercises, dynamic results, mobile layouts, and the visual labs. No application or simulation changes are needed to register the new language.
 
 For an RTL language, use `dir: 'rtl'` and the matching Intl locale. The course shell includes direction-aware styling; a native speaker should still check the translated UI and diagrams. Missing messages fall back individually to Indonesian. A missing requested catalog falls back to the default at initial load; a failed language switch retains the active language and shows an error.
+
+## Figure strings
+
+Each chapter figure's words (corner labels, legend, caption, readouts, accessible descriptions) are `fig.cNN.*` keys, plus the shared `fig.ui.number`. For Indonesian and English, edit `figures/cNN/strings.json` (both languages, same names, same placeholders) and run `npm run build:figures`; the build replaces that chapter's keys in `dist/locales/id.json` and `en.json`, so never edit those keys there by hand. A new language translates the `fig.*` keys directly in its own catalog, like any other key; the build does not touch other catalogs. Corner labels are small monospace text: keep titles to about 26 characters, hints to 30 and readouts to 34, then check the figure at 390 px wide. `npm test` fails when a figure uses a key that a catalog lacks, or when the catalogs no longer match `strings.json`.
 
 ## Complete sentences and placeholders
 
